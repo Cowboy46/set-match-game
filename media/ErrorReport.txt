@@ -1,0 +1,27 @@
+PARSER ERROR
+------------
+Unknown parameter at line 1338.
+
+PROGRAM TRACE
+-------------
+                endif
+            endif
+            if GetSpri
+
+ERROR TRACE
+-----------
+Failed to 'DoUserFunctionCall::DoInstruction'
+Failed to 'DoStatement(TokenID)'
+Failed to 'pJumpBlockA->DoBlock'
+Failed to 'DoStatement(TokenID)'
+Failed to 'pJumpBlockA->DoBlock'
+Failed to 'DoStatement(TokenID)'
+Failed to 'pJumpBlockA->DoBlock'
+Failed to 'DoStatement(TokenID)'
+Failed to 'pLoopBlock->DoBlock()'
+Failed to 'DoStatement(TokenID)'
+Failed to 'DoUserFunction::DoBlock'
+Failed to 'DoStatement(TokenID)'
+Failed to 'DoBlock(0)'
+Failed to 'MakeStatements'
+Failed to Parse Program (MakeDBM->MakeProgram)'
